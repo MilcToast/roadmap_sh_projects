@@ -5,21 +5,14 @@
     <meta name="viewport" content="width=device-with, initial-scale=1.0">
     <title>My First Website - Homepage</title>
     <!-- SEO Tags -->
-    <meta name="description" content="Jeremy Huang's first website's homepage">
+    <meta name="description" content="Jeremy Huang's styled Portfolio homepage">
     <meta name="author" content="Jeremy Huang">
     <meta name="keywords" content="HTML, Frontend Development, Web Development, Website">
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Jeremy Huang's first website">
-    <meta property="og:description" content="First multiple page website of Jeremy Huang">
+    <meta property="og:title" content="Jeremy Huang's Portfolio">
+    <meta property="og:description" content="Personal Portfolio of Jeremy Huang">
     <meta property="og:type" content="website">
-    <!-- (little bit of) STYLE -->
-    <style>
-      table, th, td {
-      border: 1px solid black;
-      border-collapse: collapse;
-      padding: 15px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
@@ -32,11 +25,11 @@
         <a title="Articles!" href="articles.html">Articles</a> / 
         <a title="Contact me!" href="contact.html">Contact</a>
       </nav>
-      <h1 style="text-align:center">Frontend Developer</h1>
+      <h1 class="page-title">Frontend Developer</h1>
       <p style="text-align:center">html only with proper layout, no styling</p>
     </header>
     <main>
-      <table style="width:100%">
+      <table>
         <tr>
           <td rowspan="2">
           <h3 style="text-align:center">Projects:</h3>
@@ -81,7 +74,7 @@
     </main>
     <footer>
       <h3>Reviews from my Friends</h3>
-      <table style="width:100%">
+      <table>
         <tr>
           <td>
             <p><q>You’re smart 🤓, quick-witted, and a genuinely good person, <br>
@@ -101,7 +94,7 @@
           </td>
         </tr>
       </table>
-      <h5 style="text-align:center">&copy all rights reserved 2025</h5>
+      <h5 class="copyright">&copy all rights reserved 2025</h5>
     </footer>
   </body>
 </html>

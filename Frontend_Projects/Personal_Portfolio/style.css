@@ -1,0 +1,13 @@
+.page-title, .copyright {
+    text-align: center;
+}
+
+table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 15px;
+      }
+
+table {
+    width: 100%;
+}
